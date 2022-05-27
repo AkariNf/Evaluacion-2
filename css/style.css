@@ -1,0 +1,150 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*Barra de navegacion*/
+.nav-bar {
+  list-style-type: none;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+.nav-item {
+  float: left;
+}
+.nav-link {
+  font-size: 30px;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+.nav-link:hover {
+  background-color: white;
+  color: black;
+}
+/*Hero*/
+.hero {
+  background-image: linear-gradient(rgba(53, 53, 53, 0.466), rgb(0, 0, 0)),
+    url("../img/hero_bg.webp");
+  width: 100%;
+  height: 970px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+}
+.text_hero {
+  color: #ffffff;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main_tittle {
+  font-size: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 3px 3px #000000;
+}
+/*Cuerpo*/
+.titulo {
+  font-weight: 150px;
+  font-size: 45px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.contenedor {
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+}
+.contenedor p,
+h2 {
+  font-size: 30px;
+  text-align: justify;
+  padding: 20px 40px;
+}
+.contenedor-card {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.contenedor-img {
+  float: right;
+  height: auto;
+  width: 30%;
+  padding: 15px 50px;
+}
+.card {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  width: 30%;
+  text-align: left;
+  transform: scale(1);
+  transition: transform 0.6s;
+}
+.card img {
+  width: 30%;
+  margin: 0 0 20px 0;
+}
+.card p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.card div {
+  padding: 40px 40px;
+}
+.card:hover {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+/*Galeria*/
+.galeria {
+  background: rgb(212, 212, 212);
+}
+.galeria-contenedor {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+}
+.galeria-img {
+  width: 30%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 30px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  padding: 0;
+}
+.galeria-contenedor img:hover {
+  transform: scale(1.05);
+}
+.piepagina {
+  background-color: rgb(0, 0, 0);
+}
+.footer-contenedor {
+  color: rgb(255, 255, 255);
+}
+.footer-contenedor p,
+h2 {
+  font-size: 20px;
+  text-align: justify;
+  padding: 5px 0px;
+}
+.footer-contenedor h2 {
+  padding: 20px 0px;
+}
+.footer-contenedor a {
+  text-decoration: none;
+  color: rgb(113, 187, 255);
+}
